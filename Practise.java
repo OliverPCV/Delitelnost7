@@ -47,8 +47,8 @@ class Practise {
             while((row = br.readLine()) != null) {
                 int rownumber = Integer.parseInt(row);
                 rownumber = (int)Math.floor((double)rownumber / 3.0);
-                rownumber = number - 2;
-                totalcount = rownumber;
+                rownumber = rownumber - 2;
+                totalcount = totalcount + rownumber;
             }
 
             System.out.println(totalcount);
